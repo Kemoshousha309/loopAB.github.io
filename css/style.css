@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    color: #eeeeee;
+}
+.btn, .form-control, .navbar-brand{
+    font-size: 1.6rem;
+}
+
+.navbar{
+    opacity: 0.8;
+    border-bottom: 3px solid #008ed6 ;
+}
+
+#home-section {
+    background-image:url(../img/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.card-form{
+    opacity: .8;
+}
+.home-inner{
+    padding-top: 17vh;
+}
+
+#home i, .create-section i{
+    color: rgba(20, 102, 209, 0.801);
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 2.2rem;
+    padding: 3px;
+}
+
+.explore-section{
+    color: rgba(0, 0, 0, 0.747);
+}
+.explore-section i, .share-section i{
+    color: white;
+    background-color: #000000;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 5px;
+} 
